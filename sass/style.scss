@@ -106,7 +106,7 @@ a {
 }
 
 
-/*--------------ABOUT US-----------------*/
+/*--------------SERVICES-----------------*/
 .container h2 {
   position: relative;
   font-size: 50px;
@@ -119,14 +119,14 @@ a {
   font-weight: 100;
   color: #868e96;
 }
-.about-us-boxes {
+.services-boxes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 100px;
   padding: 0 200px;
   column-gap: 50px;
 }
-.about-box i {
+.service-box i {
   font-size: 35px;
   height: 70px;
   width: 70px;
@@ -135,9 +135,22 @@ a {
   border-radius: 50%;
   line-height: 1.8;
 }
-.about-box h3 {
+.service-box h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 20px 0;
   color: #000;
+}
+
+
+
+/*-------------------------------portfolio--------------------*/
+
+
+.our-portfolio-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+}
+.portfolio-box img{
+  height: 50px;
 }
