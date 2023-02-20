@@ -102,7 +102,7 @@ a {
 .header-btn:hover {
   color: #fff;
   transition: all 0.7s ease 0s;
-  background-color: #e67700;
+  background:linear-gradient(#fcc419, #dfe92a);
 }
 
 
@@ -150,7 +150,7 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr) ;
   gap: 70px;
-  padding: 0 150px;;
+  padding: 50px 150px;
   
 }
 .portfolio-box img{
@@ -167,6 +167,7 @@ a {
   width: 300px;
   height: 400px;
   margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .portfolio-box h3{
     color: #000;
@@ -205,7 +206,7 @@ align-items: center;
 }
 .footer-icon:hover{
   color: #000;
-  background-color:#fcc419;
+  background:linear-gradient(#fcc419, #dfe92a);
   transition: all 0.7s ease 0s;
 }
 
